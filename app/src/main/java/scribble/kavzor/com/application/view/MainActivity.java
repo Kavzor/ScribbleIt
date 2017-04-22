@@ -4,10 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import scribble.kavzor.com.application.R;
 import scribble.kavzor.com.application.background.LoginService;
