@@ -11,8 +11,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="scribble.kavzor.com.application.view.MainActivity">
 
+    <CheckBox
+        android:text="Developer Mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/developer_box"
+        android:checked="false"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_below="@+id/developer_box"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:id="@+id/login_status"/>
 </RelativeLayout>
