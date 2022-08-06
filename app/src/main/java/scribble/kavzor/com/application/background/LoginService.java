@@ -32,7 +32,7 @@ public class LoginService implements Runnable{
     private String status;
 
     public LoginService(){
-        this.status = "Not logged in";
+        this.status = "Not signed in today";
     }
 
 
